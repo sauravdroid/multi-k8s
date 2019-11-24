@@ -26,6 +26,3 @@ deploy:
   script: bash ./deploy.sh
   on:
     branch: master
-
-  # script:
-  # - docker run -e CI=true USERNAME/docker-react npm run test
